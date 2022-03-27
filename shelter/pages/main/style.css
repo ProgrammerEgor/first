@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(215, 223, 208);
+}
+.main-wrapper {
+    background-color: aqua;
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+header {
+     background-color: brown;
+}
