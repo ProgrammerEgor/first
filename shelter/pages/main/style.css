@@ -1,13 +1,59 @@
+@font-face {
+    font-family: Georgia;
+    src: url(../../assets/fonts/georgia.ttf);
+}
+
+@font-face {
+    font-family: Arial;
+    src: url(../../assets/fonts/arialmt.ttf);
+}
+
+
 body {
     background-color: rgb(215, 223, 208);
 }
 .main-wrapper {
     background-color: aqua;
-    max-width: 1280px;
+    max-width: 1200px;
     height: 100vh;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 60px 40px 0 40px;
 }
 header {
-     background-color: brown;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    height: 60px;
+}
+.header-nav {
+    min-width: 443px;
+}
+.header-nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+   
+}
+.header-nav a {
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+}
+
+.header-nav a:hover {
+    color: #FAFAFA;
+    text-decoration: underline;
+}
+
+.logo{
+
+
 }
